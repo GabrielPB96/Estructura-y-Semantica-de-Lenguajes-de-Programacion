@@ -9,9 +9,10 @@ Organizar los datos en conjuntos.
 2. Números Enteros
 3. Números Reales
 **Información**
-| CI | nombre |estatura |
-|----|---------|----------|
-| 9345678| 'Ale'|1,85|
+
+| CI     | nombre  |estatura|
+|--------|---------|--------|
+| 9345678| 'Ale'   |1,85    |
 
 - ### Tipos Primitivos
 >*Valores que no pueden ser descompuestos.*
@@ -49,11 +50,11 @@ public enum Mes {
 ```
 
 ```pascal
-	type empleado = record
-						codigo : Integer;
-						nombre : String;
-						salario : Real;
-					end
+	type empleado = record	
+				codigo : Integer;
+				nombre : String;
+              			salario : Real;
+			end
 ```
 
 - Unión Disyunta (+)
